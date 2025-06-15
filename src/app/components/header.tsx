@@ -5,8 +5,8 @@ export default function Header() {
     <div className="my-[2rem] ">
       <div className="flex flex-col">
         <PageOpacity>
-          <div className=" my-[6rem] mx-auto  flex flex-wrap text-[#69aab1]  font-[400] ">
-            <h1 className="titulo text-[3.5rem] font-poppins ">
+          <div className="my-[6rem] mx-auto flex justify-center text-center text-[#69aab1] font-[400]">
+            <h1 className="titulo text-[3.5rem] font-poppins">
               Olá, meu nome é{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-tl from-[black] via-[#006381] to-[#000000] drop-shadow-[0_0_0.05rem_#69aab1]">
                 Rodrigo Bispo <br />
@@ -14,7 +14,7 @@ export default function Header() {
               e viso ser um{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-tl from-black via-[#006381] to-[#000000] drop-shadow-[0_0_0.05rem_#69aab1]">
                 desenvolvedor full stack. <br />
-              </span>{" "}
+              </span>
             </h1>
           </div>
         </PageOpacity>

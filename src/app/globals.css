@@ -15,8 +15,7 @@ html {
 @media (max-width: 1024px) {
   .titulo {
     font-size: 2rem;
-    margin-inline: auto;
-    text-align: center; /* tamanho menor para telas menores que 1024px */
+   /* tamanho menor para telas menores que 1024px */
   }
   .navbar-container a {
     font-size: 0.6rem;
