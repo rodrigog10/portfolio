@@ -6,7 +6,7 @@ import HoverGrow from "./hovergrow";
 export default function AboutMe() {
   return (
     <PageOpacity>
-      <div className="rounded-3xl shadow-[-4px_0_15px_#5b979d] p-6 mx-auto flex flex-col justify-center items-center my-[4rem] w-[90%] md:w-fit text-center">
+      <div className="  shadow-[-4px_0_15px_#5b979d] p-[2rem] mx-auto flex flex-col justify-center items-center my-[4rem] w-[90%] md:w-fit text-center">
         <h1
           id="contato"
           className="text-black drop-shadow-[0_0_3px_#69aab1] text-[2.5rem] md:text-[4.5rem] font-poppins mb-2"

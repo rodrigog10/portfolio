@@ -5,7 +5,7 @@ export default function Header() {
     <div className="my-[2rem] ">
       <div className="flex flex-col">
         <PageOpacity>
-          <div className="my-[6rem] mx-auto flex justify-center text-center text-[#69aab1] font-[400]">
+          <div className="my-[6rem] mx-auto flex justify-center text-center text-[#3ea4af] font-[400]">
             <h1 className="titulo text-[3.5rem] font-poppins">
               Olá, meu nome é{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-tl from-[black] via-[#006381] to-[#000000] drop-shadow-[0_0_0.05rem_#69aab1]">
@@ -22,7 +22,7 @@ export default function Header() {
         <div className=" mb-[4rem] flex flex-wrap mx-auto  gap-x-[3rem] ">
           <PageOpacity>
             <h3
-              className="paragrafo  my-[1rem] rounded-l-4xl shadow-[4px_0_15px_#5b979d] 
+              className="paragrafo  my-[1rem]  shadow-[-4px_0_15px_#5b979d] 
             p-4  max-w-[30rem] w-fit font-poppins font-[400]  text-[1rem] "
             >
               atualmente, eu estou no 3° ano do ensino médio e estou dando
@@ -38,7 +38,7 @@ export default function Header() {
           </PageOpacity>
           <PageOpacity>
             <h3
-              className=" paragrafo my-[1rem] rounded-r-4xl shadow-[-4px_0_15px_#5b979d] 
+              className=" paragrafo my-[1rem]  shadow-[-4px_0_15px_#5b979d] 
             p-4  max-w-[30rem] font-poppins w-fit font-[400]  text-[1rem]"
             >
               atrás do meu lado pessoal, bem.. eu tenho 17 anos, moro em
@@ -48,7 +48,7 @@ export default function Header() {
               academia, ler livros, praticar esportes e{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#00aeff] via-[#0f222b] font-[600] to-[#68c0e9] ">
                 {" "}
-                estudar programação {"(> ᴗ•)"}
+                estudar programação
               </span>{" "}
               -.
             </h3>

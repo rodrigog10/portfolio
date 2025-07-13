@@ -26,7 +26,7 @@ export default function Tecnologies() {
         <h1
           id="tecnologias"
           className="bg-gradient-to-br text-transparent bg-clip-text from-[#001f3c] via-[#69aab1] to-[#69b1b9] drop-shadow-[0_0_3px_#69aab1] 
-          project-h1 text-[4.5rem] font-poppins text-left mx-[2rem] mb-[4rem]"
+          project-h1 text-[4.5rem] font-poppins text-center mx-[2rem] mb-[4rem]"
         >
           Tecnologias
         </h1>

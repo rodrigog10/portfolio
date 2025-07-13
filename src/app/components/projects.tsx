@@ -10,7 +10,7 @@ export default function Projects() {
         <h1
           id="projetos"
           className="bg-gradient-to-br text-transparent bg-clip-text from-[#001f3c] via-[#69aab1] to-[#69b1b9] drop-shadow-[0_0_3px_#69aab1] 
-          project-h1 text-[3rem] sm:text-[3.5rem] md:text-[4.5rem] font-poppins text-left mx-4 sm:mx-6 md:mx-[2rem] mb-[2rem] sm:mb-[3rem] md:mb-[4rem]"
+          project-h1 text-[3rem] sm:text-[3.5rem] md:text-[4.5rem] font-poppins text-center mx-4 sm:mx-6 md:mx-[2rem] mb-[2rem] sm:mb-[3rem] md:mb-[4rem]"
         >
           Meus projetos
         </h1>
@@ -33,7 +33,7 @@ export default function Projects() {
                 href="https://drinkancoffee.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-bl-2xl p-2 bg-gradient-to-r from-[#2a3f2c] to-[#577e58] text-[1.2rem] sm:text-[1.5rem] font-poppins text-black
+                className="rounded-bl-2xl p-2 mt-2 bg-gradient-to-r from-[#2a3f2c] to-[#577e58] text-[1.2rem] sm:text-[1.5rem] font-poppins text-black
                 transition duration-200 ease-in-out 
                 hover:shadow-[4px_0_15px_#5b979d] hover:drop-shadow-[0_0_1px_#000000b0]"
               >
