@@ -28,6 +28,11 @@ export default function Projects() {
               Simples landing page de <br />
               uma cafeteria fictícia.
             </p>
+            <p className="font-poppins text-black/50 text-[20px] my-4 sm:my-[2rem]">
+            - Design compacto e moderno; <br />
+            - Responsivo para dispositivos móveis; <br />
+            - Animações suaves para melhor experiência do usuário.
+            </p>
             <HoverGrow>
               <a
                 href="https://drinkancoffee.vercel.app/"
