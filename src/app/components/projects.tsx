@@ -9,7 +9,7 @@ export default function Projects() {
       <PageLeftToRight>
         <h1
           id="projetos"
-          className="bg-gradient-to-br text-transparent bg-clip-text from-[#001f3c] via-[#69aab1] to-[#69b1b9] drop-shadow-[0_0_3px_#69aab1] 
+          className="bg-gradient-to-br text-transparent bg-clip-text from-[#001f3c] to-[#69b1b9] drop-shadow-[0_0_3px_#69aab1] 
           project-h1 text-[3rem] sm:text-[3.5rem] md:text-[4.5rem]  text-center mx-4 sm:mx-6 md:mx-[2rem] mb-[2rem] sm:mb-[3rem] md:mb-[4rem]"
         >
           Meus projetos

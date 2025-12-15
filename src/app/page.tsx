@@ -12,7 +12,7 @@ const nunito = Nunito({
 
 export default function Home() {
   return (
-    <div className={`${nunito.variable} antialiased font-nunito`}>
+    <div className={`${nunito.variable} font-nunito antialiased`}>
       <Navbar />
       <Header />
       <Projects />
