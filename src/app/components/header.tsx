@@ -20,7 +20,7 @@ export default function Header() {
           <PageOpacity>
             <h3
               className="paragrafo rounded-3xl my-[1rem] shadow-[-4px_0_15px_#5b979d] 
-            p-4  max-w-[30rem] w-fit font-[600]  text-[1rem] "
+            p-4  max-w-[30rem] w-fit font-[500]  text-[1rem] "
             >
               Atualmente, estou dando
               continuídade aos meus estudos, me informando sobre as novidades da
@@ -35,7 +35,7 @@ export default function Header() {
           <PageOpacity>
             <h3
               className=" paragrafo my-[1rem] rounded-3xl shadow-[-4px_0_15px_#5b979d] 
-            p-4  max-w-[30rem] w-fit font-[600]  text-[1rem]"
+            p-4  max-w-[30rem] w-fit font-[500]  text-[1rem]"
             >
               Eu tenho 17 anos, moro em
               Olinda, Pernambuco e gosto de viver do jeito simples, fazendo as
