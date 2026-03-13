@@ -1,71 +1,92 @@
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import PageOpacity from "./pageopacity";
-import HoverGrow from "./hovergrow";
+import PageLeftToRight from "./pagelefttoright";
+import TecnologiaCard from "./tecnologiecard";
+import PageDown from "./pagedown";
+import {DiJava} from "react-icons/di";
+import {
+  SiReact,
+  SiJavascript,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiTypescript,
+} from "react-icons/si";
 
+const tecnologias = [
+  { nome: "React", Icon: SiReact },
+  { nome: "Tailwind", Icon: SiTailwindcss },
+  { nome: "Java", Icon: DiJava},
+  { nome: "JavaScript", Icon: SiJavascript },
+  { nome: "Typescript", Icon: SiTypescript },
+  { nome: "CSS", Icon: SiCss3 },
+];
+ 
 export default function AboutMe() {
   return (
-    <PageOpacity>
-      <div className="  shadow-[-4px_0_15px_#5b979d] p-[2rem] mx-auto flex flex-col justify-center items-center my-[4rem] w-[90%] md:w-fit text-center">
-        <h1
-          id="contato"
-          className="text-black drop-shadow-[0_0_3px_#69aab1] text-[2.5rem] md:text-[4.5rem] font-poppins mb-2"
-        >
-          Te deu interesse?
-        </h1>
+    <div className="mt-[4rem] flex justify-center px-6">
+      
+      <div className="flex flex-col lg:flex-row items-start gap-10">
 
-        <p className="text-neutral-500 text-[1.5rem] md:text-[2.5rem] font-poppins mb-[3rem]">
-          Entre em contato comigo!
-        </p>
-
-        {/* Redes sociais */}
-
-        <div className="flex flex-wrap justify-center gap-[4rem]">
-          <HoverGrow>
-            <a
-              href="https://github.com/rodrigog10"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
+        {/* TECNOLOGIAS */}
+        <PageOpacity>
+        <div>
+          
+            <h1
+              
+              className="  drop-shadow-[0_0_1.5px_#000] text-[3rem] mb-[3rem]"
             >
-              <FaGithub size={60} />
-            </a>
-          </HoverGrow>
+              my technologies:
+            </h1>
+          
 
-          <HoverGrow>
-            <a
-              href="https://www.linkedin.com/in/rodrigo-bispo-7854a9324/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
-            >
-              <FaLinkedin size={60} />
-            </a>
-          </HoverGrow>
-
-          <HoverGrow>
-            <a
-              href="https://www.instagram.com/rodrigobisppo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
-            >
-              <FaInstagram size={60} />
-            </a>
-          </HoverGrow>
-
-          <HoverGrow>
-            <a
-              href="mailto:rodrigobisppo123@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
-            >
-              <MdEmail size={60} />
-            </a>
-          </HoverGrow>
+          <PageOpacity>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-[3rem]">
+              {tecnologias.map((tec) => (
+                <TecnologiaCard
+                  key={tec.nome}
+                  nome={tec.nome}
+                  Icon={tec.Icon}
+                />
+              ))}
+            </div>
+          </PageOpacity>
         </div>
+        </PageOpacity>
+
+        {/* DIVIDER */}
+        <PageOpacity>
+        <div className="hidden lg:block h-114 w-[2px] bg-black"></div>
+        </PageOpacity>
+        {/* BIO */}
+        <PageOpacity>
+        <div className="flex flex-col">
+          
+          <h2 
+          
+          className="text-[3rem] font-medium mb-[1rem] drop-shadow-[0_0_1.5px_#000]">
+            about me:
+          </h2>
+          
+              
+          <div className="max-w-[43rem] my-[1rem] shadow-[-4px_0_15px_#5b979d] p-4">
+  <h3 className="paragrafo">
+    <span className="text-[1rem] sm:text-[1.2rem] md:text-[1.5rem]">
+      currently, i am continuing my studies, keeping myself informed
+      about the latest developments in programming and seeking to
+      study everything that is relevant and necessary to become a
+      versatile and fully competent developer. i am 17 years old, i
+      live in Pernambuco and i enjoy living simply — doing the
+      things i like, spending time with the people i love, going to
+      the gym, playing basketball, reading manga… and studying
+      programming.
+    </span>
+  </h3>
+</div>
+          
+        </div>
+        </PageOpacity>
+
       </div>
-    </PageOpacity>
+    </div>
   );
 }

@@ -9,30 +9,33 @@ export default function Projects() {
       <PageLeftToRight>
         <h1
           id="projetos"
-          className="bg-gradient-to-br text-transparent bg-clip-text from-[#001f3c] to-[#69b1b9] drop-shadow-[0_0_3px_#69aab1] 
-          project-h1 text-[3rem] sm:text-[3.5rem] md:text-[4.5rem]  text-center mx-4 sm:mx-6 md:mx-[2rem] mb-[2rem] sm:mb-[3rem] md:mb-[4rem]"
+          className="drop-shadow-[0_0_2px_#000] 
+          project-h1 text-[3rem] sm:text-[3.5rem] md:text-[4.5rem]  justify-start mx-4 sm:mx-6 md:mx-[2rem] mb-[2rem] sm:mb-[3rem] md:mb-[4rem]"
         >
-          Meus projetos
+          my projects:
         </h1>
       </PageLeftToRight>
 
-      {/* Projeto 1 */}
+      {/* Project 1 */}
       <div className="projetos-container flex flex-col md:flex-row items-start gap-6 sm:gap-8 md:gap-12 mx-4 sm:mx-6 md:mx-[4rem] mt-6 sm:mt-8 md:mt-[4rem] mb-6 sm:mb-8 md:mb-[4rem]">
-        {/* Texto */}
+        {/* Text */}
         <PageDown>
           <div className="text-left">
-            <h2 className=" text-4xl sm:text-5xl bg-clip-text text-transparent bg-gradient-to-tl from-[#2a3f2c] via-[#3f5b40] to-[#1d2a1e]">
+            <h2 className=" text-4xl sm:text-5xl bg-clip-text text-transparent bg-gradient-to-tl from-[#2a3f2c] via-[#3f5b40] to-[#1d2a1e] drop-shadow-[0_0_2px_#2a3f2c]">
               DrinkAnCoffee.
             </h2>
-            <p className=" text-black/50 text-xl sm:text-2xl my-4 sm:my-[2rem]">
-              Simples landing page de <br />
-              uma cafeteria fictícia.
+
+            <p className=" text-black/60 text-xl sm:text-2xl my-4 sm:my-[2rem]">
+              simple landing page of <br />
+              a fictional coffee shop.
             </p>
-            <p className=" text-black/50 text-[20px] my-4 sm:my-[2rem]">
-            - Design compacto e moderno; <br />
-            - Responsivo para dispositivos móveis; <br />
-            - Animações suaves para melhor experiência do usuário.
+
+            <p className=" text-black/60 text-[20px] my-4 sm:my-[2rem]">
+              - compact and modern design; <br />
+              - responsive for mobile devices; <br />
+              - smooth animations for a better user experience.
             </p>
+
             <HoverGrow>
               <a
                 href="https://drinkancoffee.vercel.app/"
@@ -42,17 +45,17 @@ export default function Projects() {
                 transition duration-200 ease-in-out 
                 hover:shadow-[4px_0_15px_#5b979d] hover:drop-shadow-[0_0_1px_#000000b0]"
               >
-                Saiba mais
+                learn more
               </a>
             </HoverGrow>
           </div>
         </PageDown>
+
         <PageDown>
-          {/* Linha vertical em desktop */}
-          <div className="hidden lg:block h-64 w-[2px] bg-black"></div>
+          <div className="hidden lg:block h-140 w-[2px] bg-black"></div>
         </PageDown>
 
-        {/* Vídeo */}
+        {/* Video */}
         <PageOpacity>
           <div className="hidden md:block">
             <HoverGrow>
@@ -69,9 +72,10 @@ export default function Projects() {
         </PageOpacity>
       </div>
 
-      {/* Projeto 2 */}
+      {/* Project 2 */}
       <div className="projetos-container flex flex-col md:flex-row items-start gap-6 sm:gap-8 md:gap-12 mx-4 sm:mx-6 md:mx-[4rem] my-6 sm:my-8 md:my-[4rem]">
-        {/* Vídeo */}
+        
+        {/* Video */}
         <PageOpacity>
           <div className="hidden md:block">
             <HoverGrow>
@@ -87,33 +91,34 @@ export default function Projects() {
           </div>
         </PageOpacity>
 
-        {/* Linha vertical em desktop */}
+        {/* Divider */}
         <PageDown>
-          {" "}
-          <div className="hidden lg:block h-64 w-[2px] bg-black"></div>
+          <div className="hidden lg:block h-140 w-[2px] bg-black"></div>
         </PageDown>
 
-        {/* Texto */}
+        {/* Text */}
         <PageDown>
           <div className="flex flex-col justify-start text-left md:justify-end md:text-end">
-            <h2 className=" text-4xl sm:text-5xl text-black">
-              Lista de Tarefas
+            <h2 className=" text-4xl sm:text-5xl text-black drop-shadow-[0_0_2px_#000]">
+              Task List
             </h2>
-            <p className=" text-black/50 text-xl sm:text-2xl my-4 sm:my-[2rem]">
-              Uma lista de tarefas funcional, com recursos de adicionar, <br />
-              remover e marcar tarefas como concluídas.
+
+            <p className=" text-black/60 text-xl sm:text-2xl my-4 sm:my-[2rem]">
+              a functional task list with features to add, <br />
+              remove, and mark tasks as completed.
             </p>
+
             <HoverGrow>
               <div className="flex justify-start md:justify-end">
                 <a
                   href="https://simples-lista-de-tarefas.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-br-2xl p-2 bg-gradient-to-r from-[#000000] to-[#383838] text-[1.2rem] sm:text-[1.5rem]  text-white
+                  className="rounded-br-2xl p-2 bg-gradient-to-r from-[#000000] to-[#383838] text-[1.2rem] sm:text-[1.5rem] text-white
                   transition duration-200 ease-in-out 
                   hover:shadow-[4px_0_15px_#5b979d] hover:drop-shadow-[0_0_1px_#000000b0]"
                 >
-                  Saiba mais
+                  learn more
                 </a>
               </div>
             </HoverGrow>

@@ -5,15 +5,15 @@ import PageOpacity from "./pageopacity";
 export default function Navbar() {
   return (
     
-    <div className="fixed top-0 left-0 w-full z-50 flex justify-center">
+    <div className="fixed top-0 w-full z-50 flex justify-end pr-10 text-[rgb(123,234,246)]">
       <PageOpacity> 
-      <div className="bg-black px-6 py-2 rounded-3xl mt-3 flex justify-center items-center space-x-2 text-sm sm:text-base md:text-lg lg:text-xl font-medium">
+      <div className="bg-black px-6 py-2  mt-3 flex justify-center items-center space-x-2 text-sm sm:text-base md:text-lg lg:text-xl font-medium">
         <HoverGrow>
           <a
             href="#tecnologias"
             className="mx-2 sm:mx-3 hover:text-[#a4e2ff] transition-colors duration-200"
           >
-            tecnologias
+            tecnologies
           </a>
         </HoverGrow>
         <HoverGrow>
@@ -21,7 +21,7 @@ export default function Navbar() {
             href="#projetos"
             className="mx-2 sm:mx-3 hover:text-[#98deff] transition-colors duration-200"
           >
-            projetos
+            projects
           </a>
         </HoverGrow>
         <HoverGrow>
@@ -29,7 +29,7 @@ export default function Navbar() {
             href="#contato"
             className="mx-2 sm:mx-3 hover:text-[#98deff] transition-colors duration-200"
           >
-            contato
+            contact
           </a>
         </HoverGrow>
       </div>

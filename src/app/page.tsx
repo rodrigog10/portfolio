@@ -1,23 +1,29 @@
-import AboutMe from "./components/aboutme";
+import Contact from "./components/contact";
 import Header from "./components/header";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
 import Tecnologies from "./components/tecnologies";
 import { Nunito } from "next/font/google";
+import { Bricolage_Grotesque } from "next/font/google";
+import  AboutMe  from "./components/aboutme";
 
-const nunito = Nunito({
-  weight: '400',
-  variable: '--font-nunito',
+
+
+const bricolage = Bricolage_Grotesque({
+  weight: ['400','600','700', '800'],
+  variable: '--font-bricolage',
 })
+
+
 
 export default function Home() {
   return (
-    <div className={`${nunito.variable} font-nunito antialiased`}>
+    <div className={`${bricolage.variable} font-bricolage antialiased`}>
       <Navbar />
-      <Header />
-      <Projects />
-      <Tecnologies /> 
+      <Header /> 
       <AboutMe/>
+      <Projects />
+      <Contact />
     </div>
   );
 }
