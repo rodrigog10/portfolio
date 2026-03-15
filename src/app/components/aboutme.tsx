@@ -33,9 +33,10 @@ export default function AboutMe() {
           
             <h1
               
-              className="  drop-shadow-[0_0_1.5px_#000] text-[3rem] mb-[3rem]"
+              className=" topicos flex justify-center drop-shadow-[0_0_1.5px_#000]
+               text-[3rem] mb-[1rem]"
             >
-              my technologies:
+              my technologies
             </h1>
           
 
@@ -63,15 +64,15 @@ export default function AboutMe() {
           
           <h2 
           
-          className="text-[3rem] font-medium mb-[1rem] drop-shadow-[0_0_1.5px_#000]">
-            about me:
+          className="text-[3rem] topicos flex justify-center font-medium mb-[1rem] drop-shadow-[0_0_1.5px_#000]">
+            about me
           </h2>
           
               
-          <div className="max-w-[43rem] my-[1rem] shadow-[-4px_0_15px_#5b979d] p-4">
+          <div className="max-w-[35rem] my-[1rem] shadow-[-2px_0_15px_#5b979d] p-6 ">
   <h3 className="paragrafo">
-    <span className="text-[1rem] sm:text-[1.2rem] md:text-[1.5rem]">
-      currently, i am continuing my studies, keeping myself informed
+    <span className="text-[1rem] sm:text-[1.2rem] md:text-[1.2rem]">
+      hi! <br/> currently, i am continuing my studies, keeping myself informed
       about the latest developments in programming and seeking to
       study everything that is relevant and necessary to become a
       versatile and fully competent developer. i am 17 years old, i

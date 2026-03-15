@@ -1,5 +1,6 @@
 import HoverGrow from "./hovergrow";
 import PageOpacity from "./pageopacity";
+import Contact from "@/app/components/contact";
 
 
 export default function Navbar() {
@@ -34,6 +35,7 @@ export default function Navbar() {
         </HoverGrow>
       </div>
       </PageOpacity>
+
     </div>
     
   );

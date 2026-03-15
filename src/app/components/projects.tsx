@@ -9,10 +9,11 @@ export default function Projects() {
       <PageLeftToRight>
         <h1
           id="projetos"
-          className="drop-shadow-[0_0_2px_#000] 
-          project-h1 text-[3rem] sm:text-[3.5rem] md:text-[4.5rem]  justify-start mx-4 sm:mx-6 md:mx-[2rem] mb-[2rem] sm:mb-[3rem] md:mb-[4rem]"
+          className="topicos flex justify-center drop-shadow-[0_0_2px_#000]
+          project-h1 text-[2rem] sm:text-[2.5rem] md:text-[2.5rem] mt-[2.5rem]
+            "
         >
-          my projects:
+          my projects
         </h1>
       </PageLeftToRight>
 

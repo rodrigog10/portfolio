@@ -6,17 +6,18 @@ import HoverGrow from "./hovergrow";
 export default function Contact() {
   return (
     <PageOpacity>
-      <div className="  shadow-[-4px_0_15px_#5b979d] p-[2rem] mx-auto flex flex-col justify-center items-center my-[4rem] w-[90%] md:w-fit text-center">
-        <h1
-          id="contato"
-          className="text-black drop-shadow-[0_0_3px_#69aab1] text-[2.5rem] md:text-[4.5rem] font-poppins mb-2"
-        >
-          interested?
-        </h1>
+      <div className="flex flex-col ">
 
-        <p className="text-neutral-500 text-[1.5rem] md:text-[2.5rem] font-poppins mb-[3rem]">
-          let's talk!
-        </p>
+        <div className=" p-2 ml-4 mb-10  ">
+
+          <h1
+              id="contato"
+              className=" flex justify-center text-black drop-shadow-[0_0_3px_#69aab1] text-[1rem]
+             mb-4"
+          >
+            lets talk!
+          </h1>
+
 
         {/* Redes sociais */}
 
@@ -28,7 +29,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
             >
-              <FaGithub size={60} />
+              <FaGithub className="text-[28px] md:text-[40px]" />
             </a>
           </HoverGrow>
 
@@ -39,7 +40,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
             >
-              <FaLinkedin size={60} />
+              <FaLinkedin className="text-[28px] md:text-[40px]"  />
             </a>
           </HoverGrow>
 
@@ -50,7 +51,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
             >
-              <FaInstagram size={60} />
+              <FaInstagram className="text-[28px] md:text-[40px]"  />
             </a>
           </HoverGrow>
 
@@ -61,10 +62,11 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
             >
-              <MdEmail size={60} />
+              <MdEmail className="text-[28px] md:text-[40px]"  />
             </a>
           </HoverGrow>
         </div>
+      </div>
       </div>
     </PageOpacity>
   );

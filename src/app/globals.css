@@ -18,9 +18,16 @@ html {
 
 @media (max-width: 1024px) {
   .titulo {
-    font-size: 3rem;
+    font-size: 2rem;
     /* tamanho menor para telas menores que 1024px */
   }
+  @media (max-width: 1024px) {
+    .topicos {
+      font-size: 1.2rem;
+      /* tamanho menor para telas menores que 1024px */
+    }
+  }
+
   .navbar-container a {
     font-size: 0.6rem;
   }

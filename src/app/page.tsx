@@ -2,8 +2,6 @@ import Contact from "./components/contact";
 import Header from "./components/header";
 import Navbar from "./components/navbar";
 import Projects from "./components/projects";
-import Tecnologies from "./components/tecnologies";
-import { Nunito } from "next/font/google";
 import { Bricolage_Grotesque } from "next/font/google";
 import  AboutMe  from "./components/aboutme";
 
@@ -20,10 +18,10 @@ export default function Home() {
   return (
     <div className={`${bricolage.variable} font-bricolage antialiased`}>
       <Navbar />
-      <Header /> 
+      <Header />
       <AboutMe/>
-      <Projects />
-      <Contact />
+      <Projects/>
+        <Contact/>
     </div>
   );
 }
