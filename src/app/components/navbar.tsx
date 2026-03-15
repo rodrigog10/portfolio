@@ -6,9 +6,10 @@ import Contact from "@/app/components/contact";
 export default function Navbar() {
   return (
     
-    <div className="fixed top-0 w-full z-50 flex justify-end pr-10 text-[rgb(123,234,246)]">
+    <div className=" top-0 w-full z-50 flex justify-center md:justify-end text-[rgb(123,234,246)]">
       <PageOpacity> 
-      <div className="bg-black px-6 py-2  mt-3 flex justify-center items-center space-x-2 text-sm sm:text-base md:text-lg lg:text-xl font-medium">
+      <div className="bg-black px-6 py-2  mt-3 flex justify-center items-center space-x-2 text-sm sm:text-base
+      md:text-lg lg:text-xl font-medium">
         <HoverGrow>
           <a
             href="#tecnologias"

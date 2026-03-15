@@ -5,7 +5,7 @@ import PageOpacity from "./pageopacity";
 
 export default function Header() {
   return (
-    <div className="my-[6rem]  flex flex-col ">
+    <div className="my-[3.5rem]  flex flex-col ">
 
       <div className="">
         <PageOpacity> 
@@ -16,9 +16,9 @@ export default function Header() {
   </h1>
 
 
-  <h2 className="font-medium text-[1rem]  drop-shadow-[0_0_0.5px_#000] ">
+  <h2 className="font-medium text-[0.8rem]  drop-shadow-[0_0_0.5px_#000] ">
     student at
-    <span className=" font-medium text-[1rem]  text-orange-300 drop-shadow-[0_0_1px_#ff6600]">
+    <span className=" font-medium text-[0.8rem]  text-orange-300 drop-shadow-[0_0_1px_#ff6600]">
       {" "}Cesar School
     </span>.
 

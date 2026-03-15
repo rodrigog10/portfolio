@@ -31,11 +31,12 @@ export default function Projects() {
               a fictional coffee shop.
             </p>
 
-            <p className=" text-black/60 text-[20px] my-4 sm:my-[2rem]">
+            <p className=" text-black/60 text-[20px]  my-4 sm:my-[2rem]">
               - compact and modern design; <br />
               - responsive for mobile devices; <br />
               - smooth animations for a better user experience.
             </p>
+
 
             <HoverGrow>
               <a
