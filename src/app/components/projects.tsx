@@ -1,6 +1,6 @@
-import PageDown from "./pagedown";
+
 import HoverGrow from "./hovergrow";
-import PageLeftToRight from "./pagelefttoright";
+
 import PageOpacity from "./pageopacity";
 
 export default function Projects() {
@@ -22,7 +22,7 @@ export default function Projects() {
       items-start gap-6 sm:gap-8 md:gap-12 mx-4 sm:mx-6 md:mx-[4rem] 
       mt-6 sm:mt-8 md:mt-[4rem] mb-6 sm:mb-8 md:mb-[4rem]">
         {/* Text */}
-        <PageDown>
+        <PageOpacity>
           <div className="text-left shadow-[-2px_0_15px_#2a3f2c] p-6">
             <h2 className=" text-4xl sm:text-5xl bg-clip-text text-transparent bg-gradient-to-tl from-[#2a3f2c] via-[#3f5b40] to-[#1d2a1e] ">
               DrinkAnCoffee.
@@ -54,11 +54,11 @@ export default function Projects() {
               </a>
             </HoverGrow>
           </div>
-        </PageDown>
+        </PageOpacity>
 
-        <PageDown>
+        <PageOpacity>
           <div className="hidden lg:block h-140 w-[2px] bg-black"></div>
-        </PageDown>
+        </PageOpacity>
 
         {/* Video */}
         <PageOpacity>
@@ -97,12 +97,12 @@ export default function Projects() {
         </PageOpacity>
 
         {/* Divider */}
-        <PageDown>
+        <PageOpacity>
           <div className="hidden lg:block h-140 w-[2px] bg-black"></div>
-        </PageDown>
+        </PageOpacity>
 
         {/* Text */}
-        <PageDown>
+        <PageOpacity>
           <div className="flex flex-col  shadow-[-2px_0_15px_#000000] p-6
            justify-start text-left md:justify-end md:text-end">
             <h2 className=" text-4xl sm:text-5xl text-black">
@@ -129,7 +129,7 @@ export default function Projects() {
               </div>
             </HoverGrow>
           </div>
-        </PageDown>
+        </PageOpacity>
       </div>
     </div>
   );
