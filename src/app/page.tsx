@@ -19,9 +19,10 @@ export default function Home() {
     <div className={`${bricolage.variable} font-bricolage antialiased`}>
       <Navbar />
       <Header />
+      <Contact/>
       <AboutMe/>
       <Projects/>
-        <Contact/>
+        
     </div>
   );
 }

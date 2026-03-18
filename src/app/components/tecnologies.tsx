@@ -28,7 +28,7 @@ export default function Tecnologies() {
         
         <h1
           id="tecnologias"
-          className=" drop-shadow-[0_0_3px_#000] project-h1 text-[3.5rem]text-center mx-[2rem] mb-[4rem]"
+          className=" drop-shadow-[0_0_3px_#000] project-h1 text-[3.5rem] text-center mx-[2rem] mb-[4rem]"
         >
           my technologies
         </h1>

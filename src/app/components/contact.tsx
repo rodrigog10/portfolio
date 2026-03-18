@@ -6,30 +6,25 @@ import HoverGrow from "./hovergrow";
 export default function Contact() {
   return (
     <PageOpacity>
-      <div className="flex flex-col ">
+      <div className="flex flex-col px-4">
 
-        <div className=" p-2 ml-4 mb-10  ">
+        <div className="bg-[rgba(123,234,246,0.14)] rounded-full p-1.5 px-3 w-fit  mt-[2rem] ">
 
-          <h1
-              id="contato"
-              className=" flex justify-center text-black drop-shadow-[0_0_3px_#69aab1] text-[1rem]
-             mb-4"
-          >
-            lets talk!
-          </h1>
+          
+         
 
 
         {/* Redes sociais */}
 
-        <div className="flex flex-wrap justify-center gap-[4rem]">
+        <div className="flex flex-wrap justify-center gap-[1.5rem]">
           <HoverGrow>
             <a
               href="https://github.com/rodrigog10"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
+              className="flex items-center gap-2 text-black hover:text-[#273e41] transition"
             >
-              <FaGithub className="text-[28px] md:text-[40px]" />
+              <FaGithub className="text-[16px] md:text-[26px]" />
             </a>
           </HoverGrow>
 
@@ -38,9 +33,9 @@ export default function Contact() {
               href="https://www.linkedin.com/in/rodrigo-bispo-7854a9324/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
+              className="flex items-center gap-2 text-black hover:text-[#003eb1] transition"
             >
-              <FaLinkedin className="text-[28px] md:text-[40px]"  />
+              <FaLinkedin className="text-[16px] md:text-[26px]"  />
             </a>
           </HoverGrow>
 
@@ -49,9 +44,9 @@ export default function Contact() {
               href="https://www.instagram.com/rodrigobisppo"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
+              className="flex items-center gap-2 text-black hover:text-[rgb(210,62,255)] transition"
             >
-              <FaInstagram className="text-[28px] md:text-[40px]"  />
+              <FaInstagram className="text-[16px] md:text-[26px]"  />
             </a>
           </HoverGrow>
 
@@ -60,9 +55,9 @@ export default function Contact() {
               href="mailto:rodrigobisppo123@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-black hover:text-[#5b979d] transition"
+              className="flex items-center gap-2 text-black hover:text-[#0000007e] transition"
             >
-              <MdEmail className="text-[28px] md:text-[40px]"  />
+              <MdEmail className="text-[16px] md:text-[26px]"  />
             </a>
           </HoverGrow>
         </div>

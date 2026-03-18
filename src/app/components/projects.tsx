@@ -6,23 +6,25 @@ import PageOpacity from "./pageopacity";
 export default function Projects() {
   return (
     <div className="mt-8 flex flex-col relative">
-      <PageLeftToRight>
+      <PageOpacity>
         <h1
           id="projetos"
-          className="topicos flex justify-center drop-shadow-[0_0_2px_#000]
+          className="topicos flex justify-center 
           project-h1 text-[2rem] sm:text-[2.5rem] md:text-[2.5rem] mt-[2.5rem]
             "
         >
           my projects
         </h1>
-      </PageLeftToRight>
+      </PageOpacity>
 
       {/* Project 1 */}
-      <div className="projetos-container flex flex-col md:flex-row items-start gap-6 sm:gap-8 md:gap-12 mx-4 sm:mx-6 md:mx-[4rem] mt-6 sm:mt-8 md:mt-[4rem] mb-6 sm:mb-8 md:mb-[4rem]">
+      <div className="projetos-container flex flex-col md:flex-row 
+      items-start gap-6 sm:gap-8 md:gap-12 mx-4 sm:mx-6 md:mx-[4rem] 
+      mt-6 sm:mt-8 md:mt-[4rem] mb-6 sm:mb-8 md:mb-[4rem]">
         {/* Text */}
         <PageDown>
-          <div className="text-left">
-            <h2 className=" text-4xl sm:text-5xl bg-clip-text text-transparent bg-gradient-to-tl from-[#2a3f2c] via-[#3f5b40] to-[#1d2a1e] drop-shadow-[0_0_2px_#2a3f2c]">
+          <div className="text-left shadow-[-2px_0_15px_#2a3f2c] p-6">
+            <h2 className=" text-4xl sm:text-5xl bg-clip-text text-transparent bg-gradient-to-tl from-[#2a3f2c] via-[#3f5b40] to-[#1d2a1e] ">
               DrinkAnCoffee.
             </h2>
 
@@ -43,7 +45,8 @@ export default function Projects() {
                 href="https://drinkancoffee.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-bl-2xl p-2 mt-2 bg-gradient-to-r from-[#2a3f2c] to-[#577e58] text-[1.2rem] sm:text-[1.5rem] text-white
+                className="rounded-bl-2xl p-2 mt-2 bg-gradient-to-r from-[#2a3f2c] to-[#577e58] 
+                text-[1.2rem] sm:text-[1.5rem] text-white
                 transition duration-200 ease-in-out 
                 hover:shadow-[4px_0_15px_#5b979d] hover:drop-shadow-[0_0_1px_#000000b0]"
               >
@@ -100,8 +103,9 @@ export default function Projects() {
 
         {/* Text */}
         <PageDown>
-          <div className="flex flex-col justify-start text-left md:justify-end md:text-end">
-            <h2 className=" text-4xl sm:text-5xl text-black drop-shadow-[0_0_2px_#000]">
+          <div className="flex flex-col  shadow-[-2px_0_15px_#000000] p-6
+           justify-start text-left md:justify-end md:text-end">
+            <h2 className=" text-4xl sm:text-5xl text-black">
               Task List
             </h2>
 

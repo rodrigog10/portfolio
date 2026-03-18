@@ -5,22 +5,32 @@ import PageOpacity from "./pageopacity";
 
 export default function Header() {
   return (
-    <div className="my-[3.5rem]  flex flex-col ">
+    <div className="mt-[4.5rem] flex flex-col ">
 
       <div className="">
         <PageOpacity> 
           <div className="mx-auto flex flex-col text-black px-6">
 
-  <h1 className="titulo font-semibold text-[4.5rem] drop-shadow-[0_0_1.5px_#000]">
-    Rodrigo Bispo
-  </h1>
+  <h1 className="titulo font- text-[4.5rem] ">
+  Hi,
+    <span className="inline-block animate-[wave_2.5s_infinite] origin-[70%_70%]">👋</span>
+   i'm <span className="relative inline-block after:content-[''] 
+   after:absolute after:left-0 after:bottom-2 after:w-0 after:h-[3px]
+    after:bg-[#000000] after:transition-all after:duration-300 
+    hover:after:w-full">Rodrigo</span>
+    
+</h1>
 
 
-  <h2 className="font-medium text-[0.8rem]  drop-shadow-[0_0_0.5px_#000] ">
+  <h2 className="font-medium text-[1rem]  ">
     student at
-    <span className=" font-medium text-[0.8rem]  text-orange-300 drop-shadow-[0_0_1px_#ff6600]">
-      {" "}Cesar School
-    </span>.
+    <span className="relative text-orange-400 drop-shadow-[0_0_6px_#fb923c] transition-all 
+    duration-300 hover:drop-shadow-[0_0_12px_#fb923c] after:content-[''] after:absolute after:left-0 
+    after:bottom-0 after:w-0 after:h-[2px] after:bg-orange-400 after:transition-all 
+    after:duration-300 
+    hover:after:w-full">
+  {" "}Cesar School
+</span>.
 
 
    
