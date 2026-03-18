@@ -27,12 +27,12 @@ html {
 
 @media (max-width: 1024px) {
   .titulo {
-    font-size: 2rem;
+    font-size: 3.5rem;
     /* tamanho menor para telas menores que 1024px */
   }
   @media (max-width: 1024px) {
     .topicos {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       /* tamanho menor para telas menores que 1024px */
     }
   }

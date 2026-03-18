@@ -25,7 +25,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[#273e41] transition"
             >
-              <FaGithub className="text-[16px] md:text-[26px]" />
+              <FaGithub className="text-[24px] md:text-[26px]" />
             </a>
           </HoverGrow>
 
@@ -36,7 +36,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[#003eb1] transition"
             >
-              <FaLinkedin className="text-[16px] md:text-[26px]"  />
+              <FaLinkedin className="text-[24px] md:text-[26px]"  />
             </a>
           </HoverGrow>
 
@@ -47,7 +47,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[rgb(210,62,255)] transition"
             >
-              <FaInstagram className="text-[16px] md:text-[26px]"  />
+              <FaInstagram className="text-[24px] md:text-[26px]"  />
             </a>
           </HoverGrow>
 
@@ -58,7 +58,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-black hover:text-[#0000007e] transition"
             >
-              <MdEmail className="text-[16px] md:text-[26px]"  />
+              <MdEmail className="text-[24px] md:text-[26px]"  />
             </a>
           </HoverGrow>
         </div>
