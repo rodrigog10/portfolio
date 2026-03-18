@@ -12,8 +12,7 @@ export default function Header() {
           <div className="mx-auto flex flex-col text-black px-6">
 
   <h1 className="titulo font- text-[4.5rem] ">
-  Hi,
-    <span className="inline-block animate-[wave_2.5s_infinite] origin-[70%_70%]">👋</span>
+  Hi, <span className="inline-block animate-[wave_2.5s_infinite] origin-[70%_70%]">👋</span>
    i'm <span className="relative inline-block after:content-[''] 
    after:absolute after:left-0 after:bottom-2 after:w-0 after:h-[3px]
     after:bg-[#000000] after:transition-all after:duration-300 
