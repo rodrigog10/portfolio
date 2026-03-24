@@ -10,6 +10,11 @@ export default function Header() {
       <div className="">
         <PageOpacity> 
           <div className="mx-auto flex flex-col text-black px-6">
+          <img
+                                src="/euportfolio.jpeg" // coloca tua imagem em /public
+                                alt="Rodrigo"
+                                className=" w-32 h-32 md:w-42 md:h-42 rounded-full object-cover mb-4 shadow-lg"
+                              />
 
   <h1 className="titulo text-[5rem]  ">
   Hi, 
@@ -20,6 +25,7 @@ export default function Header() {
     <span className="inline-block animate-[wave_2.5s_infinite] origin-[70%_70%]">👋</span>
     
 </h1>
+
 
 
   <h2 className="font-medium text-[1rem]  ">
