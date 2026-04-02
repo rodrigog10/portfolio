@@ -9,11 +9,13 @@ export default function Contact() {
       <div id="contato" 
       className="flex flex-col px-4 mt-6">
 
-        <div className="bg-[rgba(0,153,170,0.25)] rounded-full p-1.5 px-4 w-fit  ">
-
-          
-         
-
+        <div className="relative inset-0
+  bg-gradient-to-br
+  from-white/0
+  via-white/20
+  to-white/0
+  bg-transparent backdrop-blur-md text-black rounded-4xl max-w-[35rem] my-[1rem]
+          shadow-[0px_0_6px_rgba(255,255,255,0.3)] px-4 py-2 xw-fit  ">
 
         {/* Redes sociais */}
 

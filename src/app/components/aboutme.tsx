@@ -20,25 +20,25 @@ const tecnologias = [
   { nome: "Typescript", Icon: SiTypescript },
   { nome: "CSS", Icon: SiCss3 },
 ];
- 
+
 export default function AboutMe() {
   return (
     <div className="mt-[4rem] flex justify-center px-6">
-      
+
       <div className="flex flex-col lg:flex-row items-start gap-10">
 
         {/* TECNOLOGIAS */}
         <PageOpacity>
         <div>
-          
+
             <h1
               id="tecnologias"
-              className=" topicos flex justify-center 
+              className=" topicos flex justify-center
                text-[3rem] mb-[1rem]"
             >
               my technologies
             </h1>
-          
+
 
           <PageOpacity>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-[3rem]">
@@ -61,19 +61,26 @@ export default function AboutMe() {
         {/* BIO */}
         <PageOpacity>
         <div className="flex flex-col ">
-          
-          <h2 
-          
+
+          <h2
+
           className="text-[3rem] topicos flex justify-center font-medium mb-[1rem] ">
             about me
           </h2>
-          
-              
-          <div className=" border-black/10 rounded-2xl border-[1.5px] max-w-[35rem] my-[1rem]
-          shadow-[-2px_0_15px_#5b979d] p-6 ">
-  <h3 className="paragrafo">
+
+
+          <div className="relative inset-0
+  bg-gradient-to-br
+  from-white/0
+  via-white/20
+  to-white/0
+  bg-transparent backdrop-blur-md text-black rounded-4xl max-w-[35rem] my-[1rem]
+          shadow-[0px_0_6px_rgba(255,255,255,0.8)] p-6 ">
+
+            {/* canto superior esquerdo */}
+
+            <h3 className="paragrafo">
     <span className=" text-[1rem] sm:text-[1.2rem] md:text-[1.2rem]">
-     
       currently, i am continuing my studies, keeping myself informed
       about the latest developments in programming and seeking to
       study everything that is relevant and necessary to become a
@@ -83,9 +90,9 @@ export default function AboutMe() {
       the gym, playing basketball, reading manga… and studying
       programming.
     </span>
-  </h3>
-</div>
-          
+            </h3>
+          </div>
+
         </div>
         </PageOpacity>
 

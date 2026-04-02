@@ -15,7 +15,7 @@ export default function Header() {
                             <img
                                 src="/euportfolio.jpeg"
                                 alt="Rodrigo"
-                                className="self-end w-36 h-36 md:w-72 md:h-72 rounded-full object-cover shadow-lg
+                                className="self-end w-36 h-36 md:w-54 md:h-54 rounded-full object-cover shadow-lg
                                 transition-transform duration-300 hover:scale-105"
                             />
                         <h1 className="titulo text-[5rem] font-semibold ">

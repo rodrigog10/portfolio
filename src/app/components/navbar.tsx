@@ -29,7 +29,7 @@ export default function Navbar() {
             rounded-full
             ${
               scrolled
-                ? "bg-transparent backdrop-blur-md text-black shadow-md"
+                ? "bg-transparent bg-gradient-to-bl from-white/5 via-white/30 to-white/5 shadow-[-0.2px_0_6px_rgba(255,255,255,0.6)] backdrop-blur-md text-black"
                 : "bg-black text-[rgb(123,234,246)]"
             }
           `}
