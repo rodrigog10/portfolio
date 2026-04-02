@@ -7,9 +7,9 @@ export default function Contact() {
   return (
     <PageOpacity>
       <div id="contato" 
-      className="flex flex-col px-4">
+      className="flex flex-col px-4 mt-6">
 
-        <div className="bg-[rgba(0,153,170,0.23)] rounded-full p-1.5 px-3 w-fit  mt-[2rem] ">
+        <div className="bg-[rgba(0,153,170,0.25)] rounded-full p-1.5 px-4 w-fit  ">
 
           
          

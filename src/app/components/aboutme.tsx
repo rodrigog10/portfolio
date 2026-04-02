@@ -69,10 +69,10 @@ export default function AboutMe() {
           </h2>
           
               
-          <div className=" border-black border-[2px] max-w-[35rem] my-[1rem] 
+          <div className=" border-black/10 rounded-2xl border-[1.5px] max-w-[35rem] my-[1rem]
           shadow-[-2px_0_15px_#5b979d] p-6 ">
   <h3 className="paragrafo">
-    <span className="text-[1rem] sm:text-[1.2rem] md:text-[1.2rem]">
+    <span className=" text-[1rem] sm:text-[1.2rem] md:text-[1.2rem]">
      
       currently, i am continuing my studies, keeping myself informed
       about the latest developments in programming and seeking to

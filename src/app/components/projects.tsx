@@ -23,7 +23,7 @@ export default function Projects() {
       mt-6 sm:mt-8 md:mt-[4rem] mb-6 sm:mb-8 md:mb-[4rem]">
         {/* Text */}
         <PageOpacity>
-          <div className="text-left shadow-[-2px_0_15px_#2a3f2c] p-6">
+          <div className="text-left  p-6">
             <h2 className=" text-4xl sm:text-5xl bg-clip-text text-transparent bg-gradient-to-tl from-[#2a3f2c] via-[#3f5b40] to-[#1d2a1e] ">
               DrinkAnCoffee.
             </h2>
@@ -103,7 +103,7 @@ export default function Projects() {
 
         {/* Text */}
         <PageOpacity>
-          <div className="flex flex-col  shadow-[-2px_0_15px_#000000] p-6
+          <div className="flex flex-col p-6
            justify-start text-left md:justify-end md:text-end">
             <h2 className=" text-4xl sm:text-5xl text-black">
               Task List
