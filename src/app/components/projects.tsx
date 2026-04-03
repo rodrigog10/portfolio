@@ -57,7 +57,11 @@ export default function Projects() {
         </PageOpacity>
 
         <PageOpacity>
-          <div className="hidden lg:block h-140 w-[2px] bg-black"></div>
+          <div className="hidden lg:block h-114 w-[2px] bg-gradient-to-br
+  from-white/20
+  via-white/50
+  to-white/20
+  bg-transparent backdrop-blur-md shadow-[0px_0_6px_rgba(255,255,255,1)] "></div>
         </PageOpacity>
 
         {/* Video */}

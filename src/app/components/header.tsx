@@ -19,7 +19,7 @@ export default function Header() {
                                 transition-transform duration-300 hover:scale-105"
                             />
                         <h1 className="titulo text-[5rem] font-semibold ">
-                            Hi,<br />
+                            Hi, <span className="  md:hidden"><br /></span>
                             i'm{" "}
                             <span className="relative inline-block after:content-['']
                         after:absolute after:left-0 after:bottom-2 after:w-0 after:h-[3px]

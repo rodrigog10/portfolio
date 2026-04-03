@@ -14,8 +14,9 @@ export default function Contact() {
   from-white/0
   via-white/20
   to-white/0
+  shadow-[0px_0_6px_rgba(255,255,255,0.3)]
   bg-transparent backdrop-blur-md text-black rounded-4xl max-w-[35rem] my-[1rem]
-          shadow-[0px_0_6px_rgba(255,255,255,0.3)] px-4 py-2 xw-fit  ">
+           px-4 py-2 w-fit  ">
 
         {/* Redes sociais */}
 

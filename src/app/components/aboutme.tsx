@@ -56,7 +56,11 @@ export default function AboutMe() {
 
         {/* DIVIDER */}
         <PageOpacity>
-        <div className="hidden lg:block h-114 w-[2px] bg-black"></div>
+        <div className="hidden lg:block h-114 w-[2px] bg-gradient-to-br
+  from-white/20
+  via-white/50
+  to-white/20
+  bg-transparent backdrop-blur-md shadow-[0px_0_6px_rgba(255,255,255,0.6)] "></div>
         </PageOpacity>
         {/* BIO */}
         <PageOpacity>
@@ -75,7 +79,7 @@ export default function AboutMe() {
   via-white/20
   to-white/0
   bg-transparent backdrop-blur-md text-black rounded-4xl max-w-[35rem] my-[1rem]
-          shadow-[0px_0_6px_rgba(255,255,255,0.8)] p-6 ">
+          shadow-[0px_0_6px_rgba(255,255,255,0.6)] p-6 ">
 
             {/* canto superior esquerdo */}
 
