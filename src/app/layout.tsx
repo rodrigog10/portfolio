@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn("font-mono", jetbrainsMono.variable)}>
       <body
-        className={`antialiased bg-gradient-to-br from-[#000929] via-[#c1ffc9ab] to-[#002929] bg-[length:200%_200%] animate-[gradientMove_10s_ease_infinite] `}
+        className={`antialiased bg-gradient-to-br from-[#002929] via-[#c1ffc9ab] to-[#002929]  `}
       >
         {children}
       </body>
