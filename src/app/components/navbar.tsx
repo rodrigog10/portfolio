@@ -2,7 +2,7 @@
 
 import HoverGrow from "./hovergrow";
 import PageOpacity from "./pageopacity";
-import Contact from "@/app/components/contact";
+
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -30,7 +30,7 @@ export default function Navbar() {
             ${
               scrolled
                 ? "bg-transparent bg-gradient-to-bl from-white/5 via-white/30 to-white/5 shadow-[-0.2px_0_6px_rgba(255,255,255,0.6)] backdrop-blur-md text-black"
-                : "bg-black text-[rgb(123,234,246)]"
+                : "bg-black text-[rgb(255,255,255)]"
             }
           `}
         >

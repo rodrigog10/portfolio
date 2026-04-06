@@ -1,14 +1,14 @@
 import PageOpacity from "./pageopacity";
-import PageLeftToRight from "./pagelefttoright";
+
 import TecnologiaCard from "./tecnologiecard";
-import PageDown from "./pagedown";
+
 import {DiJava} from "react-icons/di";
 import {
   SiReact,
   SiJavascript,
   SiTailwindcss,
-  SiHtml5,
-  SiCss3,
+  
+  SiCss,
   SiTypescript,
 } from "react-icons/si";
 
@@ -18,7 +18,7 @@ const tecnologias = [
   { nome: "Java", Icon: DiJava},
   { nome: "JavaScript", Icon: SiJavascript },
   { nome: "Typescript", Icon: SiTypescript },
-  { nome: "CSS", Icon: SiCss3 },
+  { nome: "CSS", Icon: SiCss },
 ];
 
 export default function AboutMe() {
@@ -33,8 +33,8 @@ export default function AboutMe() {
 
             <h1
               id="tecnologias"
-              className=" topicos flex justify-center
-               text-[3rem] mb-[1rem]"
+              className=" topicos flex justify-start md:justify-center
+               text-[3rem]  mb-[1rem]"
             >
               my technologies
             </h1>
@@ -56,11 +56,7 @@ export default function AboutMe() {
 
         {/* DIVIDER */}
         <PageOpacity>
-        <div className="hidden lg:block h-114 w-[2px] bg-gradient-to-br
-  from-white/20
-  via-white/50
-  to-white/20
-  bg-transparent backdrop-blur-md shadow-[0px_0_6px_rgba(255,255,255,0.6)] "></div>
+        <div className="bg-black rounded-full hidden lg:block h-114 w-[3px] "></div>
         </PageOpacity>
         {/* BIO */}
         <PageOpacity>
@@ -68,7 +64,7 @@ export default function AboutMe() {
 
           <h2
 
-          className="text-[3rem] topicos flex justify-center font-medium mb-[1rem] ">
+          className="text-[3rem] topicos flex justify-start md:justify-center mb-[1rem] ">
             about me
           </h2>
 

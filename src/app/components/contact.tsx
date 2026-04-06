@@ -10,7 +10,7 @@ export default function Contact() {
       className="flex flex-col px-4 mt-6">
 
         <div className="relative inset-0
-  bg-gradient-to-br
+  bg-gradient-to-bl
   from-white/0
   via-white/20
   to-white/0

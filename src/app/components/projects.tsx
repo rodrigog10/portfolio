@@ -7,14 +7,11 @@ export default function Projects() {
   return (
     <div className="mt-8 flex flex-col relative">
       <PageOpacity>
-        <h1
-          id="projetos"
-          className="topicos flex justify-center 
-          project-h1 text-[2rem] sm:text-[2.5rem] md:text-[2.5rem] mt-[2.5rem]
-            "
-        >
-          my projects
-        </h1>
+        <h2
+
+          className="text-[3rem] px-6 topicos flex justify-start md:justify-center mb-[1rem] ">
+            my projects
+          </h2>
       </PageOpacity>
 
       {/* Project 1 */}
@@ -23,7 +20,7 @@ export default function Projects() {
       mt-6 sm:mt-8 md:mt-[4rem] mb-6 sm:mb-8 md:mb-[4rem]">
         {/* Text */}
         <PageOpacity>
-          <div className="text-left  p-6">
+          <div className="text-left p-6">
             <h2 className=" text-4xl sm:text-5xl bg-clip-text text-transparent bg-gradient-to-tl from-[#2a3f2c] via-[#3f5b40] to-[#1d2a1e] ">
               DrinkAnCoffee.
             </h2>
@@ -57,11 +54,7 @@ export default function Projects() {
         </PageOpacity>
 
         <PageOpacity>
-          <div className="hidden lg:block h-114 w-[2px] bg-gradient-to-br
-  from-white/20
-  via-white/50
-  to-white/20
-  bg-transparent backdrop-blur-md shadow-[0px_0_6px_rgba(255,255,255,1)] "></div>
+          <div className="bg-black rounded-full hidden lg:block h-114 w-[3px] "></div>
         </PageOpacity>
 
         {/* Video */}
@@ -102,7 +95,7 @@ export default function Projects() {
 
         {/* Divider */}
         <PageOpacity>
-          <div className="hidden lg:block h-140 w-[2px] bg-black"></div>
+          <div className="bg-black rounded-full hidden lg:block h-114 w-[3px] "></div>
         </PageOpacity>
 
         {/* Text */}

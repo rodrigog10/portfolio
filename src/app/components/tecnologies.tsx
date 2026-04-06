@@ -6,7 +6,7 @@ import {
   SiReact,
   SiJavascript,
   SiTailwindcss,
-  SiCss3,
+  SiCss,
   SiTypescript,
 } from "react-icons/si";
 
@@ -15,7 +15,7 @@ const tecnologias = [
   { nome: "JavaScript", Icon: SiJavascript },
   { nome: "Tailwind", Icon: SiTailwindcss },
   { nome: "Java", Icon: DiJava },
-  { nome: "CSS", Icon: SiCss3 },
+  { nome: "CSS", Icon: SiCss },
   { nome: "Typescript", Icon: SiTypescript },
 ];
   
