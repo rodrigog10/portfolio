@@ -6,7 +6,7 @@ import HoverGrow from "./hovergrow";
 export default function Contact() {
   return (
     <PageOpacity>
-      <div id="contato" 
+      <div  
       className="flex flex-col px-4 mt-6">
 
         <div className="relative inset-0

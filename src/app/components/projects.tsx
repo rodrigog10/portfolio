@@ -8,7 +8,7 @@ export default function Projects() {
     <div className="mt-8 flex flex-col relative">
       <PageOpacity>
         <h2
-
+            id="projetos"
           className="text-[3rem] px-6 topicos flex justify-start md:justify-center mb-[1rem] ">
             my projects
           </h2>
