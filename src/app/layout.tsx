@@ -1,17 +1,26 @@
 import "./globals.css";
 
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body
-        className={`antialiased bg-gradient-to-br from-[#002929] via-[#c1ffc9ab] to-[#002929]  `}
-      >
-        {children}
-      </body>
-    </html>
-  );
+                                       children,
+                                   }: {
+    children: React.ReactNode;
+}) {
+    return (
+        <html lang="en">
+        <body
+            className="relative antialiased
+        bg-gradient-to-bl
+        from-[#016161] via-[#cffc7c] to-[#016161]
+        bg-[length:200%_200%] animate-gradient"
+        >
+        {/* AURORA */}
+        <div className="bg-aurora pointer-events-none"></div>
+
+        {/* CONTEÚDO */}
+        <div className="relative z-10">
+            {children}
+        </div>
+        </body>
+        </html>
+    );
 }

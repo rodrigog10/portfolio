@@ -92,7 +92,24 @@ html {
     background-position: 0% 50%;
   }
 }
+@layer utilities {
+  .animate-gradient {
+    animation: gradientMove 8s ease infinite;
+  }
 
+  .bg-aurora {
+    position: fixed;
+    inset: 0;
+
+    background:
+            radial-gradient(circle at 30% 30%, #4ade80 0%, transparent 50%),
+            radial-gradient(circle at 70% 70%, #22d3ee 0%, transparent 50%);
+
+    filter: blur(40px); /* reduzido */
+    opacity: 0.1;       /* mais leve */
+    pointer-events: none;
+  }
+}
 @media (max-width: 1024px) {
   .titulo {
     font-size: 2.5rem;
