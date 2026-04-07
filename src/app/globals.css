@@ -106,7 +106,7 @@ html {
             radial-gradient(circle at 70% 70%, #22d3ee 0%, transparent 80%);
 
     filter: blur(40px); /* reduzido */
-    opacity: 0.1;       /* mais leve */
+    opacity: 0.25;       /* mais leve */
     pointer-events: none;
   }
 }
