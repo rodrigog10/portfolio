@@ -20,6 +20,8 @@ export default function TecnologiaCard({ nome, Icon }: TecnologiaCardProps) {
   via-white/20
   to-white/0
   shadow-[0px_0_6px_rgba(255,255,255,0.5)]
+  border-1
+  border-white/20
   bg-transparent backdrop-blur-md text-black font-medium rounded-full px-4 mt-2 font-poppins text-20px">{nome}</span>
       </div>
     </HoverGrow>

@@ -19,7 +19,7 @@ const inter = Inter({
 
 export default function Home() {
   return (
-    <div className={`${inter.variable} font-inter antialiased`}>
+    <div className={`${inter.variable}  font-inter antialiased`}>
       <Navbar />
       <Header />
       <Contact/>

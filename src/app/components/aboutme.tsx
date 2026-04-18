@@ -7,7 +7,7 @@ import {
   SiReact,
   SiJavascript,
   SiTailwindcss,
-  
+
   SiCss,
   SiTypescript,
 } from "react-icons/si";
@@ -74,6 +74,8 @@ export default function AboutMe() {
   from-white/0
   via-white/20
   to-white/0
+  border-1
+  border-white/20
   bg-transparent backdrop-blur-md text-black rounded-4xl max-w-[35rem] my-[1rem]
           shadow-[0px_0_6px_rgba(255,255,255,0.6)] p-6 ">
 

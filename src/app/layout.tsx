@@ -9,8 +9,8 @@ export default function RootLayout({
         <html lang="en">
         <body
             className="relative antialiased
-        bg-gradient-to-br
-        from-[#5ecccc] via-[#cffc7c] to-[#5effff]
+        bg-gradient-to-bl
+        from-[#75ffff] via-[#cdff73] to-[#5effff]
         bg-[length:200%_200%] animate-gradient"
         >
         {/* AURORA */}
