@@ -13,7 +13,7 @@ export default function Header() {
                     <div className="flex ">
                         <div className="flex-col">
                             <img id="contato"
-                                src="/seriedade.jpeg"
+                                src="/sorriso.jpeg"
                                 alt="Rodrigo"
                                 className=" border-4 border-black my-4 self-end w-36 h-36 md:w-54 md:h-54 rounded-full object-cover shadow-lg
                                 transition-transform duration-300 hover:scale-105"
